@@ -52,7 +52,7 @@ const navbar = () => {
 
       <div className="btnWrapper">
         <button className="btn">
-          <Link>Football</Link>
+          <Link to="football">Football</Link>
         </button>
         <button className="btn">
           <Link>Hockey</Link>
