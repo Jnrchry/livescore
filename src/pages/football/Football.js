@@ -1,12 +1,13 @@
 import React from "react";
 import "./football.scss";
 import Navbar from "../../components/navbar/Navbar";
+import Main from "../../components/main/Main";
 
 const Football = () => {
   return (
     <div>
       <Navbar />
-      <h1>Football</h1>
+      <Main />
     </div>
   );
 };
