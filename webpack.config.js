@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   output: {
-    path: (__dirname, "dist"),
+    path: path.join(__dirname, "dist"),
     filename: "bundle.js",
   },
 
@@ -36,11 +36,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: "file-loader",
-          },
-        ],
+        loader: "file-loader",
       },
       {
         test: /\.(c|sc|sa)ss$/i,
@@ -48,9 +44,13 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        enforce: "pre",
         use: ["source-map-loader"],
       },
     ],
+  },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
   },
 };
