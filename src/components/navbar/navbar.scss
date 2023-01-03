@@ -6,15 +6,22 @@
   padding: 10px;
   justify-content: space-between;
   position: relative;
+  padding: 0 2rem;
+  height: 80px;
 
   .logo a {
     font-weight: 600;
     font-size: 1.5rem;
     color: #fff;
+    flex: 50%;
+    justify-content: flex-start;
   }
 
   .item {
     display: flex;
+    margin: 0 auto;
+    flex: 50%;
+    justify-content: flex-end;
 
     ul {
       display: flex;
@@ -83,7 +90,7 @@
     flex-direction: column;
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 80px;
     height: 230px;
     width: 100%;
     background-color: #333;

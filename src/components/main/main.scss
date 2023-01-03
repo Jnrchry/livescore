@@ -1,0 +1,46 @@
+section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 15%;
+
+  .left {
+    background-color: blue;
+    width: 33.33%;
+    height: 400px;
+    flex: 2;
+    padding: 5px;
+
+    .leftSearch {
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+
+      .searchIcon {
+        color: #333;
+        position: absolute;
+        top: 20%;
+        margin-left: 5px;
+      }
+
+      input {
+        padding: 10px;
+        border-radius: 8px;
+        width: 80%;
+        text-indent: 20px;
+      }
+    }
+  }
+  .center {
+    background-color: red;
+    width: 33.33%;
+    height: 400px;
+    flex: 4;
+  }
+  .right {
+    background-color: green;
+    width: 33.33%;
+    height: 400px;
+    flex: 2;
+  }
+}
