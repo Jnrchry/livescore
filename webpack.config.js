@@ -36,6 +36,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
+        type: "asset/resource",
         loader: "file-loader",
       },
       {
