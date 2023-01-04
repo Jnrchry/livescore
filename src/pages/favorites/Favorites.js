@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "../../components/NavBar/Navbar";
+import Navigation from "../../components/NavBar/Navigation";
 
 const Favorites = () => {
   return (
     <div>
-      <NavBar />
+      <Navigation />
     </div>
   );
 };

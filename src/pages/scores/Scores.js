@@ -1,11 +1,13 @@
 import React from "react";
 import "./scores.scss";
-import NavBar from "../../components/navbar/NavBar";
+import Navigation from "../../components/NavBar/Navigation";
+import Main from "../../components/main/Main";
 
 const Scores = () => {
   return (
     <div>
-      <NavBar />
+      <Navigation />
+      <Main />
     </div>
   );
 };

@@ -4,35 +4,36 @@ import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { SportsSoccer, StarBorder } from "@mui/icons-material";
 
-const NavBar = () => {
+const Navigation = () => {
   return (
-    <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <div>
+      <Navbar bg="dark" expand="lg">
         <Container>
           <Navbar.Brand>
-            <Link>Livscore</Link>
+            <Link>Livescore</Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mx-auto ">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mx-auto">
               <Link to="/" className="me-3">
                 <SportsSoccer className="icon" />
                 Scores
               </Link>
-
               <Link to="/favorites">
                 <StarBorder className="icon" />
-                Favorite
+                Favorites
               </Link>
             </Nav>
             <Nav>
-              <Button variant="primary">Login</Button>
+              <Button variant="primary">
+                <Link>Login</Link>
+              </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    </div>
   );
 };
 
-export default NavBar;
+export default Navigation;
