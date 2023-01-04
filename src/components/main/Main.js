@@ -1,6 +1,7 @@
 import React from "react";
 import "./main.scss";
 import { Container, Row, Col } from "react-bootstrap";
+import LeftSide from "../leftSide/LeftSide";
 
 const Main = () => {
   return (
@@ -9,7 +10,7 @@ const Main = () => {
         <Row>
           <Col>
             <div className="left d-flex justify-content-center">
-              <h1>Blue</h1>
+              <LeftSide />
             </div>
           </Col>
 

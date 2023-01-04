@@ -1,0 +1,18 @@
+.search {
+  position: relative;
+
+  .searchIcon {
+    position: absolute;
+    left: 20px;
+    top: 7px;
+  }
+
+  input {
+    text-indent: 30px;
+    height: 35px;
+  }
+}
+
+.countryIcon {
+  margin: 5px;
+}
