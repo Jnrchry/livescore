@@ -24,3 +24,20 @@
 .icon {
   margin-right: 3px;
 }
+
+.me-auto {
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    margin: 10px 10px 10px 0;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+      padding: 8px;
+      border-radius: 50px;
+    }
+  }
+}
