@@ -2,6 +2,7 @@ import React from "react";
 import "./main.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import LeftSide from "../leftSide/LeftSide";
+import Center from "../center/Center";
 
 const Main = () => {
   return (
@@ -16,7 +17,7 @@ const Main = () => {
 
           <Col>
             <div className="center d-flex justify-content-center">
-              <h1>Red</h1>
+              <Center />
             </div>
           </Col>
 

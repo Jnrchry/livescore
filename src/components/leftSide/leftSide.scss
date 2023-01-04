@@ -3,13 +3,14 @@
 
   .searchIcon {
     position: absolute;
-    left: 20px;
+    left: 5px;
     top: 7px;
   }
 
   input {
     text-indent: 30px;
     height: 35px;
+    outline: none;
   }
 }
 

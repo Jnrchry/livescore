@@ -9,12 +9,13 @@ const LeftSide = () => {
     <div>
       <Container>
         <Row>
-          <Col className="d-flex justify-content-center search mt-3">
-            <Search className="searchIcon" />
-            <input type="search" placeholder="Search" id="" />
-          </Col>
-          <Col>
-            <div className="countryWrapper mt-2">
+          <Col className="justify-content-center  mt-3">
+            <div className="search display-block">
+              <Search className="searchIcon" />
+              <input type="search" placeholder="Search" id="" />
+            </div>
+
+            <div className="mt-2 ">
               <Flag country="GB" className="countryIcon" />
               <span>England</span>
             </div>
