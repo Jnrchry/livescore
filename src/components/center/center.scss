@@ -1,0 +1,16 @@
+.leagueTitle {
+  display: flex;
+}
+
+.teamsWrapper {
+  position: relative;
+
+  .minutes {
+    position: absolute;
+    top: 25px;
+  }
+}
+
+.team {
+  color: #333;
+}
