@@ -3,6 +3,7 @@ import "./main.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import LeftSide from "../leftSide/LeftSide";
 import Center from "../center/Center";
+import RightSide from "../rightSide/RightSide";
 
 const Main = () => {
   return (
@@ -23,7 +24,7 @@ const Main = () => {
 
           <Col>
             <div className="right d-flex justify-content-center">
-              <h1>Green</h1>
+              <RightSide />
             </div>
           </Col>
         </Row>
