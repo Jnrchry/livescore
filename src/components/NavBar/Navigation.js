@@ -12,7 +12,7 @@ import {
 const Navigation = () => {
   return (
     <div>
-      <Navbar bg="dark" expand="lg" sticky="top">
+      <Navbar bg="dark" expand="lg" sticky="top" variant="dark">
         <Container>
           <Navbar.Brand>
             <Link to="/">Livescore</Link>

@@ -1,3 +1,16 @@
+.card {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  -webkit-box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.75);
+
+  .cardBody {
+    width: 100%;
+  }
+}
+
 .leagueTitle {
   display: flex;
 }
@@ -7,7 +20,7 @@
 
   .minutes {
     position: absolute;
-    top: 25px;
+    top: 18px;
   }
 }
 
